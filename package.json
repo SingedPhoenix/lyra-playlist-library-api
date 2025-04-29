@@ -1,0 +1,14 @@
+{
+  "name": "lyra-playlist-library-api",
+  "version": "1.0.0",
+  "description": "Backend for syncing playlist data from Lyra to Notion",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "@notionhq/client": "^2.2.1"
+  }
+}
